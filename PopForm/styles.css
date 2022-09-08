@@ -11,14 +11,45 @@
     background-repeat: no-repeat;
     background-position: right;
     opacity: 0.8;
-    padding-top: 10rem;
+    padding-top: 3rem;
+}
+
+#options{
+    margin:auto;
+    width: 70%;
+    height: 25vh;
+    background-color: rgba(1, 1, 1, 0.6);
+    position: relative;
+}
+
+.options-text{
+    color:#f0fff8;
+    font-weight: 400;
+    text-align: center;
+    padding-top:20px;
+}
+
+.show-pop-up{
+    visibility: visible;
+}
+
+.signup{
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    background-color: #00ab41;
+    color: #111;
+    margin: auto 45%;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+    width:120px;
 }
 
 .pop-up{
     width:50%;
     background-color: rgb(4, 4, 4, 0.4);
     margin: auto;
-    visibility:hidden;
+    /* visibility:hidden; */
 }
 form{
     padding:2rem;
@@ -58,22 +89,5 @@ input[type=submit]:hover{
         background-size:cover;
         background-repeat: no-repeat;
         opacity: 0.8;
-    }
-    .pop-up{
-        width:70%;
-    }
-    input[type=text], input[type=email], input[type=password]{
-        width:100%;
-        font-size: 0.9rem;
-        padding: 0.6rem;
-        border:none;
-    }
-    .pop-up{
-        width:50%;
-        background-color: rgb(234, 221, 202, 0.5);
-        margin: auto;
-    }
-    form{
-        padding:0.5rem;
     }
 }
